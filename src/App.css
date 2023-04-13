@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  height: 100vh;
+  background-color: #f5d0fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editable-text-input-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 25px;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .editable-text-input-container {
+    width: 500px;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.editable-text-input-inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .editable-text-input-inner-container {
+    width: 75%;
+  }
+}
+
+.input {
+  outline: none;
+  border: 1px solid #cbd2d9;
+  height: 40px;
+  width: 250px;
+  color: #323f4b;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #d946ef;
+  border: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.text {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  color: #323f4b;
+}
